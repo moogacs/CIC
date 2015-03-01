@@ -58,7 +58,7 @@ int main(){
 
 	cout << "\nResults : \nOrgiginal size  : "<< counter_original << " bytes\nCompressed size : "<< counter_compressed <<" bytes"<< endl;
 
-	printf("Compression ration : %.2f\%\n",(float)((float)counter_compressed/(float)counter_original)*100);
+	printf("Compression ration : %.2f%c\n",(float)((float)counter_compressed/(float)counter_original)*100,'%');
 	//for(int i = 0; i < compressed.length();i++)cout << " " << (int)((u_char)compressed[i]);
 
 	//	cout << endl;
